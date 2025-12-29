@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "incremental": true,
+        "lib": ["dom", "esnext"],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "rootDir": "./",
+        "outDir": "dist/js",
+        "noEmitOnError": true,
+        "resolveJsonModule": true,
+        "types": []
+    }
+}

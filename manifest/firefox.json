@@ -1,0 +1,19 @@
+{
+    "name": "Flyff Buttons",
+    "description": "Auto buttons for Flyff Universe",
+    "version": "0.0.6",
+    "manifest_version": 2,
+    "permissions": [],
+    "content_scripts": [
+        {
+            "js": ["inject.js"],
+            "matches": ["*://universe.flyff.com/play*"]
+        }
+    ],
+    "icons": {
+        "128": "logo.png",
+        "16": "logo.png",
+        "48": "logo.png"
+    },
+    "web_accessible_resources": ["flyff.js"]
+}
